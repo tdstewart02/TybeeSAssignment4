@@ -57,7 +57,7 @@ void mergeSort(int pData[], int l, int r) {
 // implement insertion sort
 // extraMemoryAllocated counts bytes of memory allocated
 void insertionSort(int* pData, int n) {
-    int i, key, j;
+    int i, j, key;
     for (i = 1; i < n; i++) {
         key = pData[i];
         j = i - 1;
